@@ -17,6 +17,10 @@ body {
    
     padding: 0 40px;
 } 
+.modal-content iframe{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
 
 /*.jumbotron h1{
 font-family: 'Arvo', serif;
@@ -37,7 +41,17 @@ ul.nav{
 .jumbotron p{
     margin-bottom: 30px;
 }
-
+.modal-content button.close{
+    top: 5px;
+    position: absolute;
+    right: 5px;
+    background-color: white;
+    font-size: 28px;
+    width: 30px;
+    opacity: 1;
+    border-radius: 24px;
+   
+}
 .homepage{
     text-align: center;
 }
